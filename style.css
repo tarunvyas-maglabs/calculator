@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 500px;
+    padding: 40px 20px;
+    background-color: black;
+} 
+.display {
+    text-align: center;
+    font-size: 46px;
+    height: 54px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    width: 100px;
+    padding: 10px 30px;
+    font-size: 36px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.row.bottom button{
+    width: 220px;
+}
