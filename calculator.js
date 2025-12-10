@@ -93,6 +93,9 @@ function handleDigit(buttonValue){
     if(display.textContent === "0" || shouldResetScreen){
         display.textContent = buttonValue;
         shouldResetScreen = false;
+        if(currentOperator === null){
+            firstOperand = null;
+        }
     } else {
         display.textContent += buttonValue;
     }
