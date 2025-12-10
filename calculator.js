@@ -108,5 +108,6 @@ function handleEqual(){
         firstOperand = result;
         secondOperand = null;
         currentOperator = null;
+        shouldResetScreen = true;
     }
 }
